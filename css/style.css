@@ -1,0 +1,1212 @@
+@media screen and (max-width:8000px) {
+
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Playfair Display', sans-serif;
+	color: black;
+	font-size: 16px;
+}
+
+h1, h2, h5, h6 {
+	padding: 0;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-size: 96px;
+	margin-bottom: 34px;
+}
+
+h3 {
+	font-size: 36px;
+	padding: 0;
+	margin: 0;
+}
+
+h4 {
+	font-size: 18px;
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+p {
+	margin: 0;
+	font-family: 'Open Sans';
+}
+
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+.container {
+	width: 1160px;
+	/*позиционирование по центру*/
+	margin: 0 auto;
+}
+
+.header {
+	background: url('../img/Perexod1-2.png') center bottom no-repeat, url('../img/LenskieStolbi.jpg') no-repeat center top / cover;
+	padding-top: 8px;
+}
+
+header a {
+	color: #fff;
+ }
+ .logo {
+ 	margin-right: 564px;
+ }
+
+ .menu {
+ 	display: flex;
+ }
+
+ .menu li a {
+ 	text-transform: uppercase;
+ 	text-decoration: none;
+ 	font-size: 18px;
+ 	font-family: 'Open Sans';
+ 	font-weight: bold;
+
+ }
+
+ .menu li a {
+ 	margin-right: 39px;
+ }
+
+ .nav {
+ 	display: flex;
+ 	align-items: center;
+ }
+
+.offer {
+	margin-top: 100px;
+	margin-left: px;
+	color: #fff;
+
+}
+
+ .offer h1 {
+ 	font-size: 144px;
+
+ }
+
+ .noti {
+ 	margin-top: 129px;
+ 	margin-left: 943px; 
+ }
+.map {
+	margin-top: 34px;
+}
+
+.about {
+	background: url('../img/FON1.jpg') no-repeat center top/ cover;
+	padding-top: 0px
+	
+}
+
+.description {
+	display: flex;
+	justify-content: space-between;
+	float: right;
+}
+
+.description p {
+	font-family: 'Open Sans';
+	font-weight: 400;
+}
+
+.desc-left, .desc-right {
+	width: 325px;
+	margin-top: px;
+	line-height: 160%;
+}
+
+.desc-left p {
+font-size: 16px;
+}
+
+.desc-right p {
+font-size: 16px;
+}
+
+
+.desc-left {
+	margin-right: 44px;
+}
+
+.Button1 {
+	margin-top: 59px;
+}
+
+.Button1 {
+box-sizing: border-box;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 6px 17px 10px;
+gap: 38px;
+width: 251px;
+height: 45px;
+left: calc(50% - 251px/2 + 365.75px);
+top: calc(50% - 45px/2 + 38.33px);
+border: 2px solid #53A3EA;
+border-radius: 30px;
+font-size: 18px;
+text-decoration:none;
+color: #000
+}
+
+.Button1:hover{
+background: #B6DDFF;
+}
+
+.Button1:active{
+background: #53A3EA;
+}
+
+.Button2 {
+box-sizing: border-box;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 6px 17px 10px;
+gap: 38px;
+width: 251px;
+height: 45px;
+left: calc(50% - 251px/2 + 365.75px);
+top: calc(50% - 45px/2 + 38.33px);
+border: 2px solid #53A3EA;
+border-radius: 30px;
+font-size: 18px;
+text-decoration:none;
+text-color: #fff;
+color: #fff
+}
+
+.Button2:hover{
+background: #B6DDFF;
+}
+
+.Button2:active{
+background: #53A3EA;
+}
+
+
+
+
+
+
+
+
+.popup-bg {
+	display: none;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	background-color: rgba(0,0,0, .8);
+	z-index: 2;
+}
+
+
+
+
+.pop_up_container {
+	display: flex;
+	width: 100%;
+	height: 100%;
+}
+
+.pop_up_body {
+
+	margin: auto;
+	width: 605px; 
+	height: 419px;
+	background: url('../img/Rectangle 18.png') no-repeat center top/ cover;
+	position: relative;
+}
+
+.pop_up_body p {
+font-size: 30px;
+font-family: 'Playfair Display';
+font-weight: 700;
+color: #000;
+margin-top: 54px;
+margin-left: 54px;
+}
+
+.pop_up_body input {
+	display: block;
+	margin: 25px auto 0px auto;
+	width: 214px;
+	padding:  8px 23px;
+	background: rgba(255, 255, 255, 0.64);
+	border-radius: 30px;
+	margin-top: 32px;
+	margin-left: 54px;
+	font-family:'Open Sans';
+	font-weight: 500;
+	font-size: 16px;
+	color: #000;
+	border-color: rgba(255, 255, 255, 0.64);
+	outline: none;
+	border:none;
+}
+
+.pop_up_body input:focus {
+	outline: none;
+}
+
+.pop_up_body button {
+	cursor: pointer;
+	display: block;
+	width: 180px;
+	height: 36px;
+	border-radius: 30px;
+	background: #5F95FF;
+	font-family: 'Playfair Display';
+	font-size: 16px;
+	margin-top: 32px;
+	margin-left: 54px;
+	border:none;
+	color: #fff;
+}
+
+.pop_up_close {
+	position: absolute;
+	top: 52px;
+	right: 52px;
+	font-size: 40px;
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+.Zag2 {
+	margin-top: 28px;
+}
+
+.GID1 {
+	margin-top: -60px;
+	margin-left: 198px;
+	width: 189px;
+}
+.GID15 {
+	margin-top: 0px;
+	margin-left: 198px;
+	width: 145px;
+}
+
+.GID1PNG {
+	margin-left: 99px;
+	margin-top: 21px;
+
+}
+
+.GID1text {
+	width: 288px;
+	margin-top: 36px;
+	margin-left: 99px;
+	font-size: 16px;
+}
+
+.PHOT1 {
+	margin-top: -60px;
+	margin-left: 100px;
+}
+
+.PHOT15 {
+	margin-top: 0px;
+	margin-left: 100px;
+}
+
+.PHOTPNG {
+	margin-left: 0px;
+	margin-top: 21px;
+}
+
+.PHOTtext {
+	width: 270px;
+	margin-top: 36px;
+	margin-left: 0px;
+	font-size: 16px;
+}
+
+.Provodniki {
+	display: inline-flex;
+	justify-content: space-between;
+	float: lefts;
+}
+
+.VID {
+	margin-top: -27px;
+	margin-left: 28px;
+}
+
+.ButtonZabron {
+	margin-top: -28px;
+}
+
+.dates {
+	background: url('../img/Perexod2-3.png') no-repeat center top, 
+	url('../img/Perexod3-footer.png') center bottom no-repeat, 
+	url('../img/Perexod3-footer2.png') center bottom no-repeat,
+	url('../img/айна.jpg') no-repeat center top / cover;
+	padding-top: 103px;
+	height: 1392px;
+}
+
+.bluetext {
+	text-align:  center;
+}
+
+.bluetext {
+	color: #53A3EA;
+}
+
+.YAK {
+	color: #fff;
+	text-align: center;
+	margin-bottom: 0px;
+}
+
+.place {
+	text-align: center;
+	color: #fff;
+	margin-top: 12px;
+}
+
+.BZAP {
+	margin-top: 36px;
+	margin-left: 447px;
+}
+
+.Whitetext {
+	color: #fff;
+	
+	margin-left: 256px;
+
+
+}
+
+.number {
+	font-size: 96px;
+	color: #fff;
+	margin-left: 50PX;
+}
+
+.number1 {
+	font-size: 96px;
+	color: #fff;
+}
+
+
+.month {
+font-family: 'Open Sans';
+font-size: 14px;
+color: #fff;
+font-weight: 300;
+}
+
+.month1 {
+font-family: 'Open Sans';
+font-size: 14px;
+color: #fff;
+font-weight: lighter;
+}
+
+.nameplace {
+font-family: 'Playfair Display';
+font-size: 14px;
+color: #fff;
+}
+
+.aboutday {
+	margin-left: 18px;
+}
+
+.datanumber {
+	display: inline-flex;
+	align-items: center;
+	margin-top: 19px;
+}
+
+.datanumberN {
+	display: flex;
+	margin-left: 524px;
+	align-items: center;
+	margin-top: 15px;
+}
+
+.ButtonZabron2 {
+	margin-left: 455px;
+	margin-top: 30px;
+}
+
+.Prozbapodpis {
+	margin-top: 30px;
+	margin-left: 388px;
+}
+
+.footernav {
+ 	display: flex;
+ 	justify-content: space-between;
+ 	margin-left: 100px
+ }
+
+.foother-link {
+	flex-direction: column;
+	text-decoration: none;
+	margin-right: 50px;
+}
+
+.logo2 {
+	margin-right: 220px;
+}
+
+.foother-link a, p {
+	font-size: 12px;
+	color: #000;
+	font-family: 'Open Sans';
+
+}
+
+.footer-link a:hover{
+	opacity: 0.4;
+}
+
+.whitebox {
+	width: 54px;
+    height: 54px;
+}
+
+.oneplace {
+	margin-left: auto;
+	font-size: 14px;
+	color: #fff;
+	font-weight: bold;
+	font-family: 'Playfair Display';
+}
+
+.header_burger {
+	display: none;
+
+}
+
+.header_menu {}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.menu li a {
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 18px;
+	font-family: 'Open Sans';
+	font-weight: bold;
+
+}
+
+.menu li a {
+	margin-right: 39px;
+}
+
+.nav {
+	display: flex;
+	align-items: center;
+}
+
+/*эту перенёс с медиа*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:767px) {
+	
+	.header_burger {
+		display: block;
+		position: relative;
+		width: 30px;
+		height: 20px;
+		margin-right: 10px;
+		z-index: 3;
+	}
+
+	.header_burger:before,
+	.header_burger:after {
+		content: '';
+		background-color: rgb(255, 255, 255);
+		position: absolute;
+		width: 100%;
+		height: 2px;
+		left: 0;
+		display: block;
+	}
+
+
+
+	.header_menu {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-color: #5F95FF;
+		z-index: 3;
+	}
+
+	.header_burger span {
+		position: absolute;
+		background-color: #fff ;
+		position: absolute;
+		left: 0;
+		width: 100%;
+		height: 2px;
+		top: 9px;
+	}
+
+	.header_burger.active span {
+		transform: scale(0);
+		transition: all 0.3s ease 0s;
+	}
+
+	.header_burger:before {
+		top: 0;
+		transition: all 0.3s ease 0s;
+	}
+	.header_burger:after {
+		bottom: 0;
+		transition: all 0.3s ease 0s;
+	}
+	
+	.header_burger.active:before {
+	transform: rotate(45deg);
+	top: 9px;	
+	}
+
+	.header_burger.active:after {
+		transform: rotate(-45deg);
+		bottom: 9px;	
+		}
+
+	html,body{
+		overflow-x: hidden
+		}
+
+	body {
+		padding: 0px;
+		margin: 0px;
+		font-family: 'Playfair Display', sans-serif;
+		color: black;
+		font-size: 16px;
+		width:100%; 
+		height:100%; 
+		overflow-x: hidden;
+		z-index:2;
+		
+	}
+	
+	h1, h2, h5, h6 {
+		padding: 0;
+		margin: 0;
+		text-transform: uppercase;
+	}
+
+	h2 {
+		font-size: 55px;
+		margin-bottom: 34px;
+	}
+	
+	h3 {
+		font-size: 30px;
+		padding: 0;
+		margin: 0;
+		text-align: center;
+	}
+	
+	h4 {
+		font-size: 18px;
+		padding: 0;
+		margin: 0;
+	}
+	
+	a {
+		text-decoration: none;
+	}
+	
+	p {
+		margin: 0;
+		font-family: 'Open Sans';
+	}
+	
+	ul, li {
+		display: block;
+		padding: 0;
+		margin: 0;
+	}
+	
+	.container {
+		max-width: 330px;
+		margin: auto;
+		align-items: center;
+	}
+	
+	.header {
+		background: url('../img/Perexod1-2.png') center bottom no-repeat, url('../img/LenskieStolbi.jpg') no-repeat center top / cover;
+		padding-top: 8px;
+		min-width: auto;
+		width: auto;
+		width:auto; 
+		max-width:100%;
+	}
+	
+	header a {
+		color: #fff;
+	 }
+	 .logo {
+		 margin-right: auto;
+		 display: flex;
+		 /*239 70*/
+		 width: 178px;
+		 height: 52px;
+		 z-index: 3;
+		
+		 
+
+		 
+	 }
+	
+	 .menu {
+		 display: block;
+		 position: fixed;
+		 left: 100%;
+		 top: -100%;
+		 width: 100%;
+		 height: 100%;
+		 background-color: #5F95FF;
+		 padding: 80px 0px 0px 0px;
+		 transition: all 0.3s ease 0s;
+
+		 /*изменил это, когда оно не активно*/
+	 }
+
+	 .menu.active {
+		top: 0;
+		left: 0;
+	 }
+
+	 .menu li {
+		margin-left: 30px;
+		margin-top: 30px;
+	}
+
+	
+
+
+
+
+	
+	.offer {
+		margin-top: 100px;
+		color: #fff;
+	
+	}
+	
+	 .offer h1 {
+		 font-size: 55px;
+		 text-align: center;
+	
+	 }
+	
+	 .noti {
+		 margin-top: 129px;
+		 margin-left: 150px; 
+		 width:auto; 
+		 max-width:100%
+	 }
+	.map {
+		margin-top: 34px;
+		width:auto; 
+		max-width:100%;
+	}
+	
+	.about {
+		background: url('../img/FON1.jpg') no-repeat center top/ cover;
+		padding-top: 0px;
+		width:auto; 
+		max-width:100%;
+		
+	}
+	
+	.description {
+		display: inline-block;
+		justify-content: space-between;
+		float: none;
+		margin-left: auto;
+		margin-right: auto;
+		align-items: center;
+		margin-top: 30px;
+	}
+	
+	.description p {
+		font-family: 'Open Sans';
+		font-weight: 400;
+	}
+	
+	.desc-left, .desc-right {
+		width: 320px;
+		margin-top: px;
+		line-height: 160%;
+	}
+	
+	.desc-left p {
+	font-size: 16px;
+	}
+	
+	.desc-right p {
+	font-size: 16px;
+	}
+	
+	
+	.desc-left {
+		margin-right: 44px;
+	}
+	
+	.Button1 {
+		margin-top: 59px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	
+	.Button1 {
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 6px 17px 10px;
+	gap: 38px;
+	width: 251px;
+	height: 45px;
+	left: calc(50% - 251px/2 + 365.75px);
+	top: calc(50% - 45px/2 + 38.33px);
+	border: 2px solid #53A3EA;
+	border-radius: 30px;
+	font-size: 18px;
+	text-decoration:none;
+	color: #000
+	}
+	
+	.Button1:hover{
+	background: #B6DDFF;
+	}
+	
+	.Button1:active{
+	background: #53A3EA;
+	}
+	
+	.Button2 {
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 6px 17px 10px;
+	gap: 38px;
+	width: 251px;
+	height: 45px;
+	left: calc(50% - 251px/2 + 365.75px);
+	top: calc(50% - 45px/2 + 38.33px);
+	border: 2px solid #53A3EA;
+	border-radius: 30px;
+	font-size: 18px;
+	text-decoration:none;
+	color: #fff
+	}
+	
+	.Uznatbol {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	text-align: center;
+	}
+
+	.Button2:hover{
+	background: #B6DDFF;
+	}
+	
+	.Button2:active{
+	background: #53A3EA;
+	}
+	
+	.popup-bg {
+		display: none;
+		width: 100%;
+		height: 100%;
+		position: fixed;
+		left: 0;
+		top: 0;
+		background-color: rgba(0,0,0, .8);
+		z-index: 2;
+	}
+	
+	
+	
+	
+	.pop_up_container {
+		display: flex;
+		width: 100%;
+		height: 100%;
+	}
+	
+	.pop_up_body {
+	
+		margin: auto;
+		width: 605px; 
+		height: 419px;
+		background: url('../img/Rectangle 18.png') no-repeat center top/ cover;
+		position: relative;
+		max-width: 100%
+	}
+	
+	.pop_up_body p {
+	font-size: 30px;
+	font-family: 'Playfair Display';
+	font-weight: 700;
+	color: #000;
+	margin-top: 54px;
+	margin-left: 54px;
+	}
+	
+	.pop_up_body input {
+		display: block;
+		margin: 25px auto 0px auto;
+		width: 214px;
+		padding:  8px 23px;
+		background: rgba(255, 255, 255, 0.64);
+		border-radius: 30px;
+		margin-top: 32px;
+		margin-left: 54px;
+		font-family:'Open Sans';
+		font-weight: 500;
+		font-size: 16px;
+		color: #000;
+		border-color: rgba(255, 255, 255, 0.64);
+		outline: none;
+		border:none;
+	}
+	
+	.pop_up_body input:focus {
+		outline: none;
+	}
+	
+	.pop_up_body button {
+		cursor: pointer;
+		display: block;
+		width: 180px;
+		height: 36px;
+		border-radius: 30px;
+		background: #5F95FF;
+		font-family: 'Playfair Display';
+		font-size: 16px;
+		margin-top: 32px;
+		margin-left: 54px;
+		border:none;
+		color: #fff;
+	}
+	
+	.pop_up_close {
+		position: absolute;
+		top: 52px;
+		right: 52px;
+		font-size: 40px;
+		cursor: pointer;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	.Zag2 {
+		margin-top: 28px;
+	}
+	
+	.GID1 {
+		margin-top: -60px;
+		margin-left: 100px;
+		width: 189px;
+	}
+	.GID15 {
+		margin-top: 0px;
+		margin-left: 100px;
+		width: 145px;
+	}
+	
+	.GID1PNG {
+		margin-left: auto;
+		margin-top: 21px;
+	
+	}
+	
+	.GID1text {
+		width: 288px;
+		margin-top: 36px;
+		margin-left: 0px;
+		font-size: 16px;
+	}
+	
+	.PHOT1 {
+		margin-top: -60px;
+		margin-left: 100px;
+	}
+	
+	.PHOT15 {
+		margin-top: 0px;
+		margin-left: 100px;
+	}
+	
+	.PHOTPNG {
+		margin-left: 0px;
+		margin-top: 21px;
+	}
+	
+	.PHOTtext {
+		width: 270px;
+		margin-top: 36px;
+		margin-left: 0px;
+		font-size: 16px;
+	}
+	
+	.Provodniki {
+		display: block;
+		justify-content: none;
+		float: lefts;
+	}
+	
+	.VID {
+		margin-top: 50px;
+		margin-left: 12px;
+		margin-right: auto;
+		width: 300px;
+		height: 180px;
+	}
+	
+	.ButtonZabron {
+		margin-top: -28px;
+	}
+	
+	.dates {
+		background: url('../img/Perexod2-3.png') no-repeat center top, 
+		url('../img/Perexod3-footer.png') center bottom no-repeat, 
+		url('../img/Perexod3-footer2.png') center bottom no-repeat,
+		url('../img/айна.jpg') no-repeat center top / cover;
+		padding-top: 103px;
+		height: 1392px;
+		width:auto; 
+		max-width:100%;
+	}
+	
+	.bluetext {
+		text-align:  center;
+	}
+	
+	.bluetext {
+		color: #53A3EA;
+	}
+	
+	.YAK {
+		color: #fff;
+		text-align: center;
+		margin-bottom: 0px;
+	}
+	
+	.place {
+		text-align: center;
+		color: #fff;
+		margin-top: 12px;
+	}
+	
+	.BZAP {
+		margin-top: 36px;
+		margin-left: 40px;
+		margin-right: auto;
+		display: auto;
+	}
+	
+	.Whitetext {
+		color: #fff;
+		margin-left: 0px;
+		text-align: center;
+		margin-bottom: 40px;
+	
+	
+	}
+	
+	.number {
+		font-size: 96px;
+		color: #fff;
+		margin-left: 50PX;
+	}
+	
+	.number1 {
+		font-size: 96px;
+		color: #fff;
+	}
+	
+	
+	.month {
+	font-family: 'Open Sans';
+	font-size: 14px;
+	color: #fff;
+	font-weight: 300;
+	margin-top: -100px;
+	margin-left: 160px;
+	}
+	
+
+	
+	.month1 {
+	font-family: 'Open Sans';
+	font-size: 14px;
+	color: #fff;
+	font-weight: lighter;
+	}
+	
+
+
+
+	.nameplace {
+	font-family: 'Playfair Display';
+	font-size: 14px;
+	color: #fff;
+	margin-left: 0px;
+	}
+	
+	.aboutday {
+		margin-left: 18px;
+	}
+	
+	.datanumber {
+		display: block;
+		align-items: center;
+		margin-right: auto;
+		margin-left: auto;
+		margin-top: 19px;
+		margin-bottom: 50px;
+	}
+	
+	.oneplace {
+		margin-left: auto;
+		font-size: 14px;
+		color: #fff;
+		margin-left: 160px;
+	}
+	
+	.datanumberN {
+		display: flex;
+		margin-left: 50px;
+		align-items: center;
+		margin-top: 15px;
+	}
+	
+	.ButtonZabron2 {
+		margin-left: 0px;
+		margin-top: 30px;
+	}
+	
+	.Prozbapodpis {
+		margin-top: 30px;
+		margin-left: -20px;
+		width: 50%;
+		height: 50%;
+	}
+	
+	.Prozba {
+		width: 50%;
+		height: 50%;
+	}
+
+	.footernav {
+		 display: block;
+		 justify-content: space-between;
+		 margin-left: 0px;
+	 }
+	
+	.foother-link {
+		flex-direction: column;
+		text-decoration: none;
+		margin-right: 50px;
+		margin-top: 30px;
+	}
+	
+	.logo2 {
+		margin-right: 220px;
+		width: 178px;
+		height: 52px;
+	}
+	
+	.foother-link a, p {
+		font-size: 12px;
+		color: #000;
+		font-family: 'Open Sans';
+	
+	}
+	
+	.footer-link a:hover{
+		opacity: 0.4;
+	}
+	
+	.whitebox {
+		width: 54px;
+		height: 54px;
+	}
+
+}
